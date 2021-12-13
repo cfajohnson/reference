@@ -43,6 +43,10 @@ echo '$NAME'    # => $NAME
 echo "${NAME}!" # => John!
 
 NAME = "John" # => Error (about space)
+
+Note: 
+echo $NAME is not the same as echo "$NAME"
+Try it with NAME='John     Doe'
 ```
 
 
